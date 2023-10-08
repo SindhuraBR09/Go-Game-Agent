@@ -5,17 +5,19 @@ Developed as a Go-game agent, this AI system employs the Min-Max and Alpha-Beta 
 Game Synopsis:
 Go, renowned as an abstract strategy board game, pits two players, namely Black and White, against each other. The primary objective is to secure more territory than the adversary. In this variant, Little-Go, the game adheres to simplified principles:
 
-Players: Two participants, Black and White, partake in the game.
-Board: The Go board comprises an intersecting grid of horizontal and vertical lines. Although the traditional board measures 19x19, the current rendition confines itself to a 5x5 grid.
-Points: Intersections formed by the grid lines are referred to as points, encompassing those at the corners and edges. The game unfolds exclusively on these points, disregarding the squares.
-Stones: Black employs black stones, while White employs white stones.
+Players: 
+* Two participants, Black and White, partake in the game.
+* Board: The Go board comprises an intersecting grid of horizontal and vertical lines. Although the traditional board measures 19x19, the current rendition confines itself to a 5x5 grid.
+* Points: Intersections formed by the grid lines are referred to as points, encompassing those at the corners and edges. The game unfolds exclusively on these points, disregarding the squares.
+* Stones: Black employs black stones, while White employs white stones.
+
 The game's fundamental course is straightforward:
 
-It initiates with an empty board.
-Players take turns depositing stones on the board, one stone per turn.
-Any unoccupied point can be chosen for placement, adhering to the "KO" and "no-suicide" rules.
-Once positioned, a stone remains fixed and can solely be removed if captured.
-The entire gameplay of Go (Little-Go) revolves around two cardinal rules: Liberty (No-Suicide) and KO.
+* It initiates with an empty board.
+* Players take turns depositing stones on the board, one stone per turn.
+* Any unoccupied point can be chosen for placement, adhering to the "KO" and "no-suicide" rules.
+* Once positioned, a stone remains fixed and can solely be removed if captured.
+* The entire gameplay of Go (Little-Go) revolves around two cardinal rules: Liberty (No-Suicide) and KO.
 
 Input and Output:
 Input data is drawn from "input.txt" located in the working directory and follows this structure:
